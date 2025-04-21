@@ -1,0 +1,46 @@
+.feedback-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+  
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+  
+    .logout {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.4rem 1rem;
+      border: none;
+      background-color: #e74c3c;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #c0392b;
+      }
+    }
+  
+    .error {
+      color: #c0392b;
+      background-color: #fdecea;
+      border: 1px solid #f5c6cb;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      text-align: center;
+    }
+  }
+  

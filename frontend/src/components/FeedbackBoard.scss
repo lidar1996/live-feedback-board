@@ -1,0 +1,24 @@
+.feedback-board {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    overflow-y: auto;
+    max-height: 400px;
+  
+    .feedback-item {
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  
+      span {
+        display: block;
+        font-size: 0.9rem;
+        color: #555;
+        margin-top: 0.5rem;
+        text-align: right;
+      }
+    }
+  }
+  
