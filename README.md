@@ -1,6 +1,7 @@
 # Live Feedback Board
-
 **Live Feedback Board** is a Full Stack microservices-based project that enables real-time, anonymous feedback submission.
+
+<img src="https://github.com/user-attachments/assets/18e8a813-f620-4134-b36b-2220a947b9d3" alt="Live Feedback Board Screenshot" width="600"/>
 
 ## Project Structure
 
